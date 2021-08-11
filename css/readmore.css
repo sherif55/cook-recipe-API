@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya Sans";
+    font-weight: 100;
+}
+
+body{
+    background-image: url(../images/readmore-bg.jpg);
+    background-size: 100% 100%;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    
+}
+
+h5{
+ font-size: 28px;
+}
+.first-section .headear-title h1{
+  
+    color: white;
+}
+
+.first-section .headear-title h1:after{
+ content:"";
+ animation: titleSlider linear 4s infinite ;
+ -webkit-animation: titleSlider linear 4s infinite ;
+}
+
+
+#receipeImg{
+    max-height: 350px;
+}
+
+#ingredientsUl{
+
+    color: white;
+    font-size: 22px;
+}
+
+
+@keyframes titleSlider{
+0%{
+    content: "O|";
+}
+3%{
+    content: "Ou|";
+}
+6%{
+    content: "Our|";
+}
+9%{
+    content: "Our |";
+}
+12%{
+    content: "Our I|";
+}
+15%{
+    content: "Our In|";
+}
+18%{
+    content: "Our Ing|";
+}
+21%{
+    content: "Our Ingr|";
+}
+24%{
+    content: "Our Ingre|";
+}
+27%{
+    content: "Our Ingred|";
+}
+30%{
+    content: "Our Ingredi|";
+}
+33%{
+    content: "Our Ingredie|";
+}
+36%{
+    content: "Our Ingredien|";
+}
+39%{
+    content: "Our Ingredient|";
+}
+61%{
+    content: "Our Ingredien|";
+}
+64%{
+    content: "Our Ingredie|";
+}
+67%{
+    content: "Our Ingredi|";
+}
+70%{
+    content: "Our Ingred|";
+}
+73%{
+    content: "Our Ingre|";
+}
+76%{
+    content: "Our Ingr|";
+}
+79%{
+    content: "Our Ing|";
+}
+82%{
+    content: "Our In|";
+}
+85%{
+    content: "Our I|";
+}
+88%{
+    content: "Our |";
+}
+91%{
+    content: "Our|";
+}
+94%{
+    content: "Ou|";
+}
+97%{
+    content: "o|";
+}
+100%{
+    content: "|";
+}
+}

@@ -1,0 +1,70 @@
+
+<html>
+<head>
+ <link rel="stylesheet" href="css/all.min.css">  
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/homestyle.css">
+</head>
+<body>
+    
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cooker</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#ourmeal">pizza</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#ourmeal">hamburger</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#ourmeal">steak</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#ourmeal">pasta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#ourmeal">seafood</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#ourmeal">ice cream</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#ourmeal">blueberry</a>
+              </li>
+              <li class="nav-item">
+                <button onclick="logout()" class="btn btn-outline-dark"><a class="nav-link active" aria-current="page" href="#">Logout</a></button>
+              </li>  
+          </div>
+        </div>
+      </nav>
+      <section>
+          <div class="first-section d-flex align-items-center justify-content-center ">
+              <div class="headear-title">
+            <h1></h1>
+        </div>
+          </div>
+      </section>
+ 
+     <section id="ourmeal">
+    <div class="container">
+        <h1 class="text-dark text-center py-3">Our Meals</h1>
+        <div id="postsRow" class="row">
+        </div>
+    </div>
+</section> 
+
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+</html>

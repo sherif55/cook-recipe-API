@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya Sans";
+    font-weight: 100;
+}
+
+
+.receipts-img{
+    height: 250px;
+}
+
+.first-section{
+    background-image: url(../images/main-bg.jpg);
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.first-section .headear-title h1{
+  
+    color: white;
+}
+
+.first-section .headear-title h1:after{
+ content:"";
+ animation: headerslider linear 8s infinite ;
+ -webkit-animation: headerslider linear 8s infinite ;
+}
+
+.btn .btn-outline-dark{
+    width: 50px;
+    height: 25px;
+}
+
+@keyframes headerslider {
+
+0%{
+    content:"B|";
+} 
+2%{
+    content:"Be|";
+} 
+4%{
+    content:"Be A|";
+} 
+6%{
+    content:"Be A G|";
+} 
+8%{
+    content:"Be A Go|";
+} 
+10%{
+    content:"Be A Goo|";
+} 
+12%{
+    content:"Be A Good|";
+} 
+14%{
+    content:"Be A Good C|";
+} 
+16%{
+    content:"Be A Good Co|";
+} 
+18%{
+    content:"Be A Good Coo|";
+} 
+20%{
+    content:"Be A Good Cook|";
+} 
+22%{
+    content:"Be A Good Cooke|";
+} 
+24%{
+    content:"Be A Good Cooker|";
+} 
+26%{
+    content:"Be A Good Cooker W|";
+}
+28%{
+    content:"Be A Good Cooker Wi|";
+} 
+30%{
+    content:"Be A Good Cooker Wit|";
+}
+32%{
+    content:"Be A Good Cooker With|";
+} 
+34%{
+    content:"Be A Good Cooker With O|";
+} 
+36%{
+    content:"Be A Good Cooker With Ou|";
+}
+38%{
+    content:"Be A Good Cooker With Our|";
+} 
+40%{
+    content:"Be A Good Cooker With Our H|";
+} 
+42%{
+    content:"Be A Good Cooker With Our He|";
+} 
+44%{
+    content:"Be A Good Cooker With Our Hel|";
+} 
+46%{
+    content:"Be A Good Cooker With Our Help|";
+} 
+54%{
+    content:"Be A Good Cooker With Our Hel|";
+}  
+56%{
+    content:"Be A Good Cooker With Our He|";
+} 
+58%{
+    content:"Be A Good Cooker With Our H|";
+} 
+60%{
+    content:"Be A Good Cooker With Our |";
+}
+62%{
+    content:"Be A Good Cooker With Ou|";
+} 
+64%{
+    content:"Be A Good Cooker With O|";
+}
+66%{
+    content:"Be A Good Cooker With|";
+} 
+68%{
+    content:"Be A Good Cooker Wit|";
+} 
+70%{
+    content:"Be A Good Cooker Wi|";
+}
+72%{
+    content:"Be A Good Cooker W|";
+}
+74%{
+    content:"Be A Good Cooker|";
+} 
+76%{
+    content:"Be A Good Cooke|";
+} 
+78%{
+    content:"Be A Good Cook|";
+}   
+80%{
+    content:"Be A Good Coo|";
+} 
+82%{
+    content:"Be A Good Co|";
+} 
+84%{
+    content:"Be A Good C|";
+} 
+86%{
+    content:"Be A Good|";
+} 
+88%{
+    content:"Be A Goo|";
+} 
+90%{
+    content:"Be A Go|";
+}
+92%{
+    content:"Be A G|";
+}
+94%{
+    content:"Be A|";
+} 
+96%{
+    content:"Be|";
+} 
+98%{
+    content:"B|";
+} 
+100%{
+    content:"|";
+}                     
+}
+
